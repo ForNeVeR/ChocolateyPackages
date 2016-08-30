@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>2.38</version>
-    <authors>Arif Bilgin,graphviz committers</authors>
+    <version>2.38.0.1</version>
+    <authors>Arif Bilgin, graphviz committers</authors>
     <owners>Jason Denizac, Friedrich von Never</owners>
     <licenseUrl>http://www.graphviz.org/License.php</licenseUrl>
     <projectUrl>http://www.graphviz.org/</projectUrl>
