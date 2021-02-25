@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>cask</id>
+        <version>0.8.5</version>
+        <packageSourceUrl>https://github.com/ForNeVeR/ChocolateyPackages</packageSourceUrl>
+        <owners>Friedrich von Never</owners>
+
+        <title>cask (Portable)</title>
+        <authors>Johan Andersson, cask contributors</authors>
+        <projectUrl>https://cask.readthedocs.io/</projectUrl>
+        <licenseUrl>https://github.com/cask/cask/blob/b81a3caa3fa3696fd385aa7072f8dc3a57408c4a/COPYING</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectSourceUrl>https://github.com/cask/cask</projectSourceUrl>
+        <docsUrl>https://cask.readthedocs.io/</docsUrl>
+        <bugTrackerUrl>https://github.com/cask/cask/issues</bugTrackerUrl>
+        <tags>emacs cask</tags>
+        <summary>Project management tool for Emacs</summary>
+        <description>Cask is a project management tool for Emacs that helps automate the package development cycle;
+            development, dependencies, testing, building, packaging and more.
+
+            Cask can also be used to manage dependencies for your local Emacs configuration.
+        </description>
+        <dependencies>
+            <dependency id="python2" version="2.6.6" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
