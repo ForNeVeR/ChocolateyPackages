@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
+
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 $url = 'https://github.com/cask/cask/archive/v0.8.5.zip'
