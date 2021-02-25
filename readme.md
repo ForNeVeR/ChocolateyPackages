@@ -14,13 +14,14 @@ Pack
 To pack the package, issue the following command like this:
 
 ```console
-> choco pack ./Graphviz/Graphviz.nuspec
+$ choco pack ./<PACKAGE>/<PACKAGE>.nuspec
 ```
 
-To install the resulting package (for example, to test it):
+To install the resulting package (for example, to test it), run the following
+command with the administrator permissions:
 
 ```console
-> choco install ./Graphviz.2.38.0.1.nupkg -f
+$ choco install <PACKAGE> -dv --source "'.;https://chocolatey.org/api/v2/'"
 ```
 
 Push
@@ -29,5 +30,5 @@ Push
 To push the package to Chocolatey.org, invoke the following:
 
 ```console
-> choco push ./Graphviz.2.38.0.1.nupkg --api-key [your API key]
+$ choco push ./<PACKAGE>.<VERSION>.nupkg --api-key <API_KEY>
 ```
