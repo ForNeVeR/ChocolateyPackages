@@ -1,2 +1,3 @@
-# built nuget packages
+/.idea/
+
 *.nupkg
