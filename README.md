@@ -5,7 +5,7 @@ This is my repository of all my Chocolatey packages, as recommended by Chocolate
 [Chocolatey](https://chocolatey.org/) is a package manager for Windows.
 
 Currently added packages are:
-- [cask](https://chocolatey.org/packages/cask/)
+- cask: [![Chocolatey page for cask](https://img.shields.io/chocolatey/v/cask)](https://chocolatey.org/packages/cask/)
 
 Pack
 ----
