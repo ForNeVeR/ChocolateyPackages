@@ -1,0 +1,19 @@
+name: Main
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  main:
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Pack all
+        run: pwsh scripts/pack-all.ps1
